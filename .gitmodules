@@ -1,0 +1,9 @@
+[submodule "i2cpp"]
+	path = i2cpp
+	url = https://github.com/jsagfr/i2cpp.git
+[submodule "gpiocpp"]
+	path = gpiocpp
+	url = https://github.com/jsagfr/gpiocpp.git
+[submodule "motor_cape"]
+	path = motor_cape
+	url = https://github.com/jsagfr/motor_cape.git
