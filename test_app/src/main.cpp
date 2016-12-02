@@ -5,7 +5,7 @@
 #include "MotorBridgeCape.h"
 #include "Channel.h"
 
-int main (int argc, char *argv[])
+int main ()
 {
   using namespace std::chrono_literals;
   // std::chrono::seconds sec(1);
@@ -44,46 +44,6 @@ int main (int argc, char *argv[])
   motor1B->stop();
   motor2A->stop();
   motor2B->stop();
-
-
-  /*
-reg = 01, data = [04, e8, 03, 00, 00]
-reg = 01, data = [09, 00]
-reg = 01, data = [0a, 03]
-reg = 01, data = [15, 00]
-reg = 01, data = [16, 03]
-reg = 01, data = [04, e8, 03, 00, 00]
-reg = 01, data = [09, 00]
-reg = 01, data = [0a, 03]
-reg = 01, data = [15, 00]
-reg = 01, data = [16, 03]
-reg = 01, data = [04, e8, 03, 00, 00]
-reg = 01, data = [21, 00]
-reg = 01, data = [22, 03]
-reg = 01, data = [2d, 00]
-reg = 01, data = [2e, 03]
-reg = 01, data = [04, e8, 03, 00, 00]
-reg = 01, data = [21, 00]
-reg = 01, data = [22, 03]
-reg = 01, data = [2d, 00]
-reg = 01, data = [2e, 03]
-power to 0.5
-reg = 01, data = [16, 01]
-reg = 01, data = [17, f4, 01, 00, 00]
-reg = 01, data = [0a, 01]
-reg = 01, data = [0b, f4, 01, 00, 00]
-reg = 01, data = [2e, 01]
-reg = 01, data = [2f, f4, 01, 00, 00]
-Error accessing 0x4B: Check your I2C address
-reg = 01, data = [22, 01]
-reg = 01, data = [23, f4, 01, 00, 00]
-stop
-reg = 01, data = [16, 03]
-reg = 01, data = [0a, 03]
-reg = 01, data = [2e, 03]
-reg = 01, data = [22, 03]
-
-  */
   
   return 0;
 }
